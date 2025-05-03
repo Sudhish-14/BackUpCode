@@ -63,5 +63,5 @@ test('GetByText',async()=>{
 await page.goto('https://www.amazon.in/');
   await page.locator('(//div[@class="a-cardui-header"]/child::h2[@class="a-color-base headline truncate-2line"])[1]');
   await page.waitForTimeout(3000);
-})
+});
 
